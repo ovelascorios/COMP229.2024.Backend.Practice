@@ -10,6 +10,10 @@ router.get('/', function(req, res, next) {
 });
 
 
+router.get('/list', usersController.list);
 router.post('/create', usersController.create);
+router.get('/get/:userID', usersController.userGet , usersController.userByID);
+router.put('/edit/:userID', usersController.update);
+router.delete('/delete/:userID', usersController.remove);
 
 module.exports = router;
