@@ -1,5 +1,15 @@
 #!/usr/bin/env node
 
+/* 
+  File Name: server.js
+  Description: Initializes and configures the HTTP server for the Portfolio Backend API, connecting to MongoDB, setting up the Express app, and handling server events.
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: October 31, 2024
+*/
+
+
+
 /**
  * Module dependencies.
  */
